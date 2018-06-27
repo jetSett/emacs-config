@@ -11,4 +11,7 @@ auto-save-list
 backups
 elpa/
 eshell
-
+.mc-lists.el
+.python-environments/
+ac-comphist.dat
+lisp/PG/
