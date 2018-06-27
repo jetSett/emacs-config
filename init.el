@@ -7,5 +7,9 @@
 (require 'init-org)
 (require 'init-python)
 (require 'init-ui)
+(require 'init-nav)
+(require 'init-misc)
+(require 'init-company-mode)
+(require 'init-rust)
 
 (provide 'init)
