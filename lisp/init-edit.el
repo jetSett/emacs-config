@@ -3,6 +3,8 @@
 (require-package 'rainbow-delimiters)
 (require-package 'flycheck)
 
+(delete-selection-mode 1)
+
 ;; Highlights matching parenthesis
 (show-paren-mode 1)
 
@@ -47,6 +49,14 @@
 (global-set-key (kbd "M-<mouse-1>") 'mc/add-cursor-on-click)
 
 (electric-pair-mode 1)
+
+;; Folding
+
+(load "folding" 'nomessage 'noerror)
+(folding-mode-add-find-file-hook)
+
+;; For python:
+(folding-add-to-marks-list 'python-mode "#{{{" "#}}}" nil t)
 
 
 (provide 'init-edit)
