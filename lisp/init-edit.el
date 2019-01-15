@@ -2,6 +2,7 @@
 (require 'saveplace)
 (require-package 'rainbow-delimiters)
 (require-package 'flycheck)
+(require-package 'folding)
 
 (delete-selection-mode 1)
 

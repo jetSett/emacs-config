@@ -1,4 +1,4 @@
-(require 'tex)
+(require-package 'auctex)
 
 ; Warning ! security issue
 (eval-after-load "tex" 
