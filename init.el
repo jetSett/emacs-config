@@ -12,6 +12,9 @@
 (require 'init-company-mode)
 (require 'init-rust)
 (require 'init-metalang)
+(require 'init-pdf)
+(require 'init-md)
+(require 'init-yas)
 ;;(require 'fira-code)
 
 (provide 'init)
@@ -23,7 +26,7 @@
  '(flycheck-python-pylint-executable "/home/joel/.local/bin/pylint")
  '(package-selected-packages
    (quote
-    (angular-mode tuareg 2048-game bibretrieve vue-mode smex rainbow-delimiters racer python-django projectile multiple-cursors jedi-direx ido-completing-read+ golden-ratio git folding flycheck-rust dracula-theme company cargo auctex atom-one-dark-theme)))
+    (sage-shell-mode pdf-tools angular-mode tuareg 2048-game bibretrieve vue-mode smex rainbow-delimiters racer python-django projectile multiple-cursors jedi-direx ido-completing-read+ golden-ratio git folding flycheck-rust dracula-theme company cargo auctex atom-one-dark-theme)))
  '(safe-local-variable-values (quote ((TeX-master . report) (TeX-master . rapport)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

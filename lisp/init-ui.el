@@ -23,6 +23,6 @@
 (set-cursor-color "#cccccc")
 (setq ring-bell-function 'ignore)
 
-(golden-ratio-mode 1)
+;(golden-ratio-mode 1)
 
 (provide 'init-ui)
