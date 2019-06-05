@@ -14,6 +14,7 @@
 (require 'init-metalang)
 (require 'init-pdf)
 (require 'init-md)
+(require 'init-git)
 (require 'init-yas)
 ;;(require 'fira-code)
 
